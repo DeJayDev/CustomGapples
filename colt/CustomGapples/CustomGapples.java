@@ -13,8 +13,7 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 public class CustomGapples extends JavaPlugin implements Listener {
-
-	List<String> effects = getConfig().getStringList("effects");
+	private List<String> effects = getConfig().getStringList("effects");
 
 	public void onEnable() {
 		Bukkit.getServer().getPluginManager().registerEvents(this, this);
