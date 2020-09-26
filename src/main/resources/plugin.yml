@@ -1,0 +1,4 @@
+name: CustomGapples
+version: ${project.version}
+main: dev.dejay.colt.customgapples.CustomGapples
+authors: ['Cewlt (Legacy)', 'DeJayDev']

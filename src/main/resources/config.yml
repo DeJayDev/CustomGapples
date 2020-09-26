@@ -1,0 +1,27 @@
+# The maximum amplifier amount is 255
+#
+# If you would like an unlimited duration specify "999999999" as the duration.
+
+# Formatting:
+# <EFFECT>:<DURATION>:<AMPLIFIER>
+# Effect from the list below, a potion effect amplifier, and the duration in ticks.
+#
+#                                  - Example Configuration -
+# effects:
+#   - JUMP:9999999999999999999999:2
+#   - SPEED:600:3
+#   - INVISIBILITY:60:5
+#
+
+# Tick Math:
+# This plugin uses ticks as intervals. 1 Second = 20 Ticks.
+# 15 Seconds? 15 x 20: 300. 300 ticks.
+
+# For a list of valid Potion Effects, please go to:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+
+effects:
+  - REGENERATION:600:5
+  - DAMAGE_RESISTANCE:6000:2
+  - FIRE_RESISTANCE:6000:2
+  - ABSORPTION:2400:2
